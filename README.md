@@ -1,7 +1,7 @@
 # Leja-ordering
 This python function allows to find the Leja order of a (finite) set of real numbers.</p>
 
-A sequence follows a Leja order if they satisfy: $$\prod_{j=0}^{k-1}|x_k-x_j|\geq\prod_{j=0}^{k-1}|x_i-x_j|,\quad i\geq k.$$
+A sequence of real numbers $x_0,\dots,x_n$ follows a Leja order if they satisfy: $$\prod_{j=0}^{k-1}|x_k-x_j|\geq\prod_{j=0}^{k-1}|x_i-x_j|,\quad i\geq k.$$
 
 This ordering has a special importance in Newton interpolation as it allows to reduce the sensitivity to perturbations. More information in the following references:<p>
 
