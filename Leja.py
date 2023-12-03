@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-import matplotlib.pyplot as plt
 
 def ordenLeja(x):
     x=-np.sort(-x)    #Ordenamos el array de mayor a menor
